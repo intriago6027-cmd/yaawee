@@ -1,0 +1,2 @@
+-keep class com.bingo.manager.data.local.entities.** { *; }
+-keep class com.bingo.manager.domain.model.** { *; }

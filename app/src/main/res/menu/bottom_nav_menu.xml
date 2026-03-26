@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/articulosFragment"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="Artículos" />
+
+    <item
+        android:id="@+id/jugadasFragment"
+        android:icon="@android:drawable/ic_menu_agenda"
+        android:title="Jugadas" />
+
+    <item
+        android:id="@+id/inventarioFragment"
+        android:icon="@android:drawable/ic_menu_manage"
+        android:title="Inventario" />
+
+    <item
+        android:id="@+id/comprasFragment"
+        android:icon="@android:drawable/ic_menu_send"
+        android:title="Compras" />
+
+    <item
+        android:id="@+id/gastosFragment"
+        android:icon="@android:drawable/ic_menu_myplaces"
+        android:title="Gastos" />
+
+    <item
+        android:id="@+id/barFragment"
+        android:icon="@android:drawable/ic_menu_compass"
+        android:title="Bar" />
+
+    <item
+        android:id="@+id/sumatoriaFragment"
+        android:icon="@android:drawable/ic_menu_info_details"
+        android:title="Total" />
+
+</menu>

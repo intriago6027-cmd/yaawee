@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/articulosFragment">
+
+    <fragment
+        android:id="@+id/articulosFragment"
+        android:name="com.bingo.manager.presentation.ui.articulos.ArticulosFragment"
+        android:label="Artículos" />
+
+    <fragment
+        android:id="@+id/jugadasFragment"
+        android:name="com.bingo.manager.presentation.ui.jugadas.JugadasFragment"
+        android:label="Jugadas" />
+
+    <fragment
+        android:id="@+id/inventarioFragment"
+        android:name="com.bingo.manager.presentation.ui.inventario.InventarioFragment"
+        android:label="Inventario" />
+
+    <fragment
+        android:id="@+id/comprasFragment"
+        android:name="com.bingo.manager.presentation.ui.compras.ComprasFragment"
+        android:label="Compras" />
+
+    <fragment
+        android:id="@+id/gastosFragment"
+        android:name="com.bingo.manager.presentation.ui.gastos.GastosFragment"
+        android:label="Gastos" />
+
+    <fragment
+        android:id="@+id/barFragment"
+        android:name="com.bingo.manager.presentation.ui.bar.BarFragment"
+        android:label="Bar" />
+
+    <fragment
+        android:id="@+id/sumatoriaFragment"
+        android:name="com.bingo.manager.presentation.ui.sumatoria.SumatoriaFragment"
+        android:label="Sumatoria" />
+
+</navigation>
